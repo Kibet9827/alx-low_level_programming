@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
- * writing c program tha prints a line using puts
+ *main - Entry point
+ *Description: "Writing c program that prints a line using puts"
  * Return : 0 (Success)
  */
 int main(void)
