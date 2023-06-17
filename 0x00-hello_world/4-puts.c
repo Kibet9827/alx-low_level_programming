@@ -4,12 +4,12 @@
  * main - Entry point
  *
  * Description: a program that prints using put()
- * Return: always 0(sucess)
+ * Return: Always 0(sucess)
  */
 
 int main(void)
 {
-	puts("/"Programming is like building a multilingual puzzle");
+	puts("Programming is like building a multilingual puzzle");
 
-	Return (0);
+	return (0);
 }
