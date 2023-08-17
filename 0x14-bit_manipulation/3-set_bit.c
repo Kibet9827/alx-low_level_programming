@@ -12,15 +12,10 @@
 
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	index = sizeof(unsigned int) * 8;
-	if (index != '0');
-	{
+	if (index > 63)
 		return (-1);
-	}
 
-	unsigned int mask = 1u index;
-
-	n = | mask;
-
+	*n = ((1UL << index) | *n);
 	return (1);
+
 }
